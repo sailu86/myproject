@@ -1,0 +1,42 @@
+.navbar {
+  padding: 20px, 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: bisque;
+}
+
+.logo img {
+  width: 160px;
+  height: 160px;
+  border-radius: none;
+  border-radius: 75%;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 2rem;
+  font-style: italic;
+
+  color: rgb(229, 104, 9);
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50rem;
+  height: 2rem;
+  list-style-type: none;
+}
+.menu h1 {
+}
+.search-box input {
+  background-color: rgb(243, 241, 238);
+  border-radius: 1rem;
+  border-color: bisque;
+  width: 14rem;
+  height: 2rem;
+}
