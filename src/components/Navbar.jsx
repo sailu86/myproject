@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import SailuBakes from "../../public/images/SailuBakes.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,13 +11,13 @@ const Navbar = () => {
       </div>
       <div className="menu">
         <ul className="menu-list">
-          <Link to="/">Home</Link>
-          <Link to="/cakes">Cakes</Link>
-          <li>Home-page</li>
-          <li>About-Us</li>
-          <li>Products</li>
-          <li>Services</li>
-          <li>Contact-us</li>
+          {/* <Link to="/">Home</Link> */}
+          
+          <li><Link>Home-page</Link></li>
+          <li><Link>About-Us</Link></li>
+          <li><Link>Products</Link></li>
+          <li><Link>Services</Link></li>
+          <li><Link>Contact-us</Link></li>
         </ul>
         <h1>Sailu's Bakes</h1>
       </div>

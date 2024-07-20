@@ -8,10 +8,11 @@ import Cupcakes from "./components/Cupcakes";
 import Snacks from "./components/Snacks";
 
 function App() {
-  return (
+  return ( 
     <div className="Navbar">
       <Router>
         <Navbar />
+        <aboutUs/>
 
         <Routes>
           <Route path="/" element={<Home />} />
