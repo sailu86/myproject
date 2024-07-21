@@ -1,7 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import SailuBakes from "../../public/images/SailuBakes.png";
-import { Link, NavLink } from "react-router-dom";
+//import { Link, NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
+
 
 const Navbar = () => {
   return (
@@ -13,11 +16,11 @@ const Navbar = () => {
         <ul className="menu-list">
           {/* <Link to="/">Home</Link> */}
           
-          <li><Link>Home-page</Link></li>
-          <li><Link>About-Us</Link></li>
-          <li><Link>Products</Link></li>
-          <li><Link>Services</Link></li>
-          <li><Link>Contact-us</Link></li>
+          <li><NavLink>Home-page</NavLink></li>
+          <li><NavLink>About-Us</NavLink></li>
+          <li><NavLink>Products</NavLink></li>
+          <li><NavLink>Services</NavLink></li>
+          <li><NavLink>Contact-us</NavLink></li>
         </ul>
         <h1>Sailu's Bakes</h1>
       </div>
